@@ -11,5 +11,9 @@
 
   &__sidebar {
     flex: 0 0 280px;
+    &::after {
+      content: '';
+      clear: both;
+    }
   }
 }
